@@ -15,6 +15,7 @@ Piano Evolution hainbat instrumentu jotzeko aukera ematen duen piano birtuala da
 
 ## Instalakuntza
 _'main.c'_, kode iturri artxiboak eta burualde artxiboak karpeta desberdinetan aurkeztu arren, karpeta berean gorde beharko dira. Karpeta bera horretan _'img'_, _'Font'_ eta _'notak'_ karpetak gorde beharko dira, baita _'abesti.evo'_ eta _'instrumentuak.txt'_ artxiboak ere. Azkenik, konpilatu eta exekutatu programa hasieratzeko.
+<br><br><br>
 
 ## Kredituak
 Proiektu honen egileak **Mario Oteo, Andoni Granados, Joselyn Ganchozo eta Jon Zurutuza** dira.
