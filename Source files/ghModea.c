@@ -387,7 +387,7 @@ ABESTIA* abestiaAukeratu(ABESTI_ZERRENDA *abestiZerrenda)
 
 		else
 		{
-				textuaIdatzi(395, 260, "1. Abestia");
+				textuaIdatzi(395, 160, "1. Abestia");
 				SDL_RenderPresent(gRenderer);
 
 				do
@@ -401,8 +401,8 @@ ABESTIA* abestiaAukeratu(ABESTI_ZERRENDA *abestiZerrenda)
 
 						abestiZerrenda = abestiZerrenda->ptrHurrengoa;
 						sprintf(mezua, "%d. Abestia", (abestiZerrenda->id + 1));
-						if (abestiZerrenda->id + 1 >= 10) textuaIdatzi(380, 260, mezua);
-						else textuaIdatzi(395, 260, mezua);
+						if (abestiZerrenda->id + 1 >= 10) textuaIdatzi(380, 160, mezua);
+						else textuaIdatzi(395, 160, mezua);
 						SDL_RenderPresent(gRenderer);
 					}
 
