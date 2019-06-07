@@ -18,4 +18,4 @@ _'main.c'_, kode iturri artxiboak eta burualde artxiboak karpeta desberdinetan a
 <br><br><br>
 
 ## Kredituak
-Proiektu honen egileak **Mario Oteo, Andoni Granados, Joselyn Ganchozo eta Jon Zurutuza** dira.
+Proiektu honen egileak **Mario Oteo, Andoni Granados, Joselyn Ganchozo eta Jon Zurutuza** dira, Mondragon Unibertsitateko Informatikako Graduaren 2. POPBLan
