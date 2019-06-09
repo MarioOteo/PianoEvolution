@@ -365,7 +365,7 @@ void startGuitarMode(ABESTIA* zerrenda, INSTRUMENTUA* instZerrenda)
 
 ABESTIA* abestiaAukeratu(ABESTI_ZERRENDA *abestiZerrenda)
 {
-	int tekla, irudiID;
+	int tekla, irudiID, songSelect;
 	ABESTIA* abestia = NULL;
 		//int abestiNum = 1;
 		char mezua[128];
@@ -387,7 +387,10 @@ ABESTIA* abestiaAukeratu(ABESTI_ZERRENDA *abestiZerrenda)
 
 		else
 		{
-				textuaIdatzi(395, 160, "1. Abestia");
+
+				songSelect = irudiaKargatu(SONG_SELECT);
+				irudiakMarraztu();
+				textuaIdatzi(395, 190, "1. Abestia");
 				SDL_RenderPresent(gRenderer);
 
 				do
@@ -401,12 +404,13 @@ ABESTIA* abestiaAukeratu(ABESTI_ZERRENDA *abestiZerrenda)
 
 						abestiZerrenda = abestiZerrenda->ptrHurrengoa;
 						sprintf(mezua, "%d. Abestia", (abestiZerrenda->id + 1));
-						if (abestiZerrenda->id + 1 >= 10) textuaIdatzi(380, 160, mezua);
-						else textuaIdatzi(395, 160, mezua);
+						if (abestiZerrenda->id + 1 >= 10) textuaIdatzi(380, 190, mezua);
+						else textuaIdatzi(395, 190, mezua);
 						SDL_RenderPresent(gRenderer);
 					}
 
 				}while(tekla != TECLA_ENTER);
+				irudiaKendu(songSelect);
 		}
 
 		irudiaKendu(irudiID);
