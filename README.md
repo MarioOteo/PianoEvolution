@@ -14,7 +14,11 @@ Piano Evolution hainbat instrumentu jotzeko aukera ematen duen piano birtuala da
 * **Piano Hero**: Gordetako abestien artean bat aukeratu eta pianoarekin batera jo beharko duzu. Puntuaketa azkenean agertuko da, beraz zoaz %100a lortzera!
 
 ## Instalakuntza
-_'main.c'_, kode iturri artxiboak eta burualde artxiboak karpeta desberdinetan aurkeztu arren, karpeta berean gorde beharko dira. Karpeta bera horretan _'img'_, _'Font'_ eta _'notak'_ karpetak gorde beharko dira, baita _'abesti.evo'_ eta _'instrumentuak.txt'_ artxiboak ere. Azkenik, konpilatu eta exekutatu programa hasieratzeko.
+Beharrezko liburutegiak: SDL2main, SDL2_mixer eta SDL2_ttf.
+
+_'main.c'_, kode iturri artxiboak eta burualde artxiboak karpeta desberdinetan aurkeztu arren, karpeta berean gorde beharko dira. Karpeta bera horretan _'img'_, _'Font'_ eta _'notak'_ karpetak gorde beharko dira, baita _'abesti.evo'_ eta _'instrumentuak.txt'_ artxiboak ere. 
+
+Azkenik, konpilatu eta exekutatu programa hasieratzeko.
 <br><br><br>
 
 ## Kredituak
